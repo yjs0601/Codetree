@@ -12,8 +12,8 @@ int main() {
     }
     if(a%2==1)
     {
-        cout<<(a+1)/2<<endl;
+        a = (a+1)/2;
     }
-    
+    cout<<a<<endl;
     return 0;
 }
