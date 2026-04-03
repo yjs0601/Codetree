@@ -6,41 +6,11 @@ int main() {
 
     cin>>a>>b;
 
-    if(a>=b)
-    {
-        cout<<1<<endl;
-    }
-    else
-    cout<<0<<endl;
-   if(a>b)
-    {
-        cout<<1<<endl;
-    }
-    else
-    cout<<0<<endl;
-    if(a<=b)
-    {
-        cout<<1<<endl;
-    }
-    else
-    cout<<0<<endl;
-    if(a<b)
-    {
-        cout<<1<<endl;
-    }
-    else
-    cout<<0<<endl;
-    if(a==b)
-    {
-        cout<<1<<endl;
-    }
-    else
-    cout<<0<<endl;
-    if(a!=b)
-    {
-        cout<<1<<endl;
-    }
-    else
-    cout<<0<<endl;
+    cout<<(a>=b)<<endl;
+    cout<<(a>b)<<endl;
+    cout<<(a<=b)<<endl;
+    cout<<(a<b)<<endl;
+    cout<<(a==b)<<endl;
+    cout<<(a!=b)<<endl;
     return 0;
 }
