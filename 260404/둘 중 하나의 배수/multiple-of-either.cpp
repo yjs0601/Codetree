@@ -6,6 +6,6 @@ int main() {
 
     cin>>A;
 
-    cout<<(A%3==0 || A%5==0);
+    cout << (A%3==0 || A%5==0) ? 1:0;
     return 0;
 }
