@@ -6,7 +6,7 @@ int main() {
     int A,B;
     cin>>A>>B;
 
-    if(A%2==0&&A>0)
+    if(A>0)
     {
         for(int i=1;i<=B;i++)
         {
