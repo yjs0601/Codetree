@@ -20,5 +20,9 @@ int main() {
             cout<<B<<" ";
         }
     }
+    else
+    {
+        cout<<A;
+    }
     return 0;
 }
