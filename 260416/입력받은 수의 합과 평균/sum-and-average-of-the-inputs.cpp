@@ -15,6 +15,9 @@ int main() {
         avg=(float)sum/cnt;
         
     }
-    cout<<sum<<" "<<avg<<" ";
+    cout<<sum<<" ";
+    cout<<fixed;
+    cout.precision(1);
+    cout<<avg<<" ";
     return 0;
 }
