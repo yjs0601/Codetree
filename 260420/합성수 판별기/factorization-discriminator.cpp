@@ -11,14 +11,16 @@ int main() {
     {
         if(n%i==0)
         {
-            bool satisfied = true;
-        }
+            satisfied = true;
+            
+        } 
     }
-    if(satisfied==true)
+  
+    if(satisfied == true)
     {
         cout<<"C";
-    }
-    else
-    cout<<"N"
+    }  
+
+    else cout<<"N";
     return 0;
 }
